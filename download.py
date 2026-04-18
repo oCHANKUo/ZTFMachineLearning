@@ -47,5 +47,5 @@ def run_download(limit=100):
     print(f"Successfully downloaded: {len(all_lcs)}")
 
 if __name__ == "__main__":
-    run_download(limit=100)
+    run_download(limit=1000)
             
