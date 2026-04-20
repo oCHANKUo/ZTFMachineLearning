@@ -1,0 +1,72 @@
+[
+  {
+    "ztf_id": "ZTF19aacgslb",
+    "label": "SN Ia",
+    "raw_score": -0.7528198366312056,
+    "primary_feature": "g_rise",
+    "primary_z": 21.9
+  },
+  {
+    "ztf_id": "ZTF19aatlmbo",
+    "label": "SN Ia",
+    "raw_score": -0.6834185753736949,
+    "primary_feature": "g_rise",
+    "primary_z": 11.48
+  },
+  {
+    "ztf_id": "ZTF18acbvgqw",
+    "label": "SN Ia",
+    "raw_score": -0.6789331443583302,
+    "primary_feature": "r_rise",
+    "primary_z": 12.08
+  },
+  {
+    "ztf_id": "ZTF18acbwaxk",
+    "label": "SN II",
+    "raw_score": -0.6639501810790192,
+    "primary_feature": "r_peak",
+    "primary_z": -5.54
+  },
+  {
+    "ztf_id": "ZTF18aaqkcso",
+    "label": "SN Ia",
+    "raw_score": -0.662985888946531,
+    "primary_feature": "g_rise",
+    "primary_z": 8.63
+  },
+  {
+    "ztf_id": "ZTF18abmxahs",
+    "label": "SN Ia",
+    "raw_score": -0.6500915608668202,
+    "primary_feature": "burst_ratio",
+    "primary_z": -5.54
+  },
+  {
+    "ztf_id": "ZTF18acqqyah",
+    "label": "SN Ia",
+    "raw_score": -0.6377926924673119,
+    "primary_feature": "r_rise",
+    "primary_z": 4.67
+  },
+  {
+    "ztf_id": "ZTF18aamzgzi",
+    "label": "SN Ia",
+    "raw_score": -0.633574935991191,
+    "primary_feature": "g_duration",
+    "primary_z": 4.93
+  },
+  {
+    "ztf_id": "ZTF17aaazdba",
+    "label": "TDE",
+    "raw_score": -0.6167045959101799,
+    "primary_feature": "g_duration",
+    "primary_z": 3.97
+  },
+  {
+    "ztf_id": "ZTF18abcfcoo",
+    "label": "other",
+    "raw_score": -0.6089204627600746,
+    "primary_feature": "peak_color",
+    "primary_z": 10.0
+  }
+]

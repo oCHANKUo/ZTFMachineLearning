@@ -1,14 +1,17 @@
 import pandas as pd
+import json
 from sklearn.ensemble import IsolationForest
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import RobustScaler
 import numpy as np
+
+ANOMALIES_OUT = "top_anomalies.json"
 
 def detect():
     df = pd.read_csv("ztf_features_clean.csv")
     feature_cols = [c for c in df.columns if c not in ["ztf_id", "label"]]
 
     X = df[feature_cols]
-    scaler = StandardScaler()
+    scaler = RobustScaler()
     X_scaled = scaler.fit_transform(X)
 
     model = IsolationForest(contamination=0.04, random_state=42)
@@ -23,7 +26,8 @@ def detect():
     # Interpretation: Find the feature that pushed it into the anomaly zone
     medians = df[feature_cols].median()
     stds = df[feature_cols].std()
-    
+
+    results = []
     for idx, row in anomalies.iterrows():
         # Find which feature is most sigmas away from the median
         z_scores = (row[feature_cols] - medians) / stds
@@ -32,6 +36,18 @@ def detect():
         print(f"ID: {row['ztf_id']} | Type: {row['label']}")
         print(f"   > Primary Reason: {top_feature} is {z_scores[top_feature]:.1f} std des from avg")
         print(f"   > Anomaly Score: {row['raw_score']:.3f}\n") 
+
+        results.append({
+            "ztf_id": row["ztf_id"],
+            "label": row["label"],
+            "raw_score": row["raw_score"],
+            "primary_feature": top_feature,
+            "primary_z": round(float(z_scores[top_feature]), 2),
+        })
+
+        with open(ANOMALIES_OUT, "w") as f:
+            json.dump(results, f, indent=2)
+        print(f"Saved top anomaly IDs → {ANOMALIES_OUT}")
 
 if __name__ == "__main__":
     detect()
