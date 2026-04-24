@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib.ticker import AutoMinorLocator
 
-ANOMALIES_IN    = "top_anomalies.json"
+# ANOMALIES_IN    = "top_anomalies.json"
+ANOMALIES_IN    = "ocsvm_anomalies.json"
 LIGHTCURVES_PKL = "ztf_lcs_all.pkl"
 OUTPUT_FILE     = "top_anomalies.png"   # set None to show interactively
 

@@ -1,0 +1,62 @@
+[
+  {
+    "ztf_id": "ZTF18acbvgqw",
+    "label": "SN Ia",
+    "ocsvm_score": -6.744570678578591,
+    "primary_feature": "r_rise"
+  },
+  {
+    "ztf_id": "ZTF19aatlmbo",
+    "label": "SN Ia",
+    "ocsvm_score": -6.60521912460598,
+    "primary_feature": "g_rise"
+  },
+  {
+    "ztf_id": "ZTF18aaqkcso",
+    "label": "SN Ia",
+    "ocsvm_score": -6.373630506929918,
+    "primary_feature": "g_rise"
+  },
+  {
+    "ztf_id": "ZTF19aapcxiy",
+    "label": "SN Ia",
+    "ocsvm_score": -6.029947384568081,
+    "primary_feature": "burst_ratio"
+  },
+  {
+    "ztf_id": "ZTF18aaqkoyr",
+    "label": "SN II",
+    "ocsvm_score": -5.184813583737219,
+    "primary_feature": "g_duration"
+  },
+  {
+    "ztf_id": "ZTF18aapictz",
+    "label": "SN Ia-91T",
+    "ocsvm_score": -5.153227812026516,
+    "primary_feature": "g_duration"
+  },
+  {
+    "ztf_id": "ZTF18accnlji",
+    "label": "SN Ia",
+    "ocsvm_score": -5.142833768967998,
+    "primary_feature": "g_duration"
+  },
+  {
+    "ztf_id": "ZTF19aaznwze",
+    "label": "Ca-rich",
+    "ocsvm_score": -4.681572807385699,
+    "primary_feature": "burst_ratio"
+  },
+  {
+    "ztf_id": "ZTF19aakpfax",
+    "label": "SN Ia",
+    "ocsvm_score": -3.120160865804386,
+    "primary_feature": "r_rise"
+  },
+  {
+    "ztf_id": "ZTF18acsyzca",
+    "label": "SN Ia",
+    "ocsvm_score": -3.015329097555761,
+    "primary_feature": "r_rise"
+  }
+]
