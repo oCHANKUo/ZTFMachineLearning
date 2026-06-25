@@ -1,0 +1,317 @@
+[
+  {
+    "ztf_id": "ZTF19abqanpy",
+    "label": "SN Ia",
+    "raw_score": -0.658218470558399,
+    "primary_feature": "r_kurt",
+    "deviation": 6.831321369798955,
+    "top3_features": [
+      [
+        "r_kurt",
+        6.831321369798955
+      ],
+      [
+        "dq_total_points",
+        5.845274100950046
+      ],
+      [
+        "r_skew",
+        5.302531930075386
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF19abqrrto",
+    "label": "SN Ia-91T",
+    "raw_score": -0.6478715586397311,
+    "primary_feature": "r_kurt",
+    "deviation": 6.8078725847321975,
+    "top3_features": [
+      [
+        "r_kurt",
+        6.8078725847321975
+      ],
+      [
+        "dq_total_points",
+        5.561866871813075
+      ],
+      [
+        "r_skew",
+        4.981435801945391
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF20acfkzcg",
+    "label": "SN IIP",
+    "raw_score": -0.623858211398765,
+    "primary_feature": "dq_total_points",
+    "deviation": 4.924200606254887,
+    "top3_features": [
+      [
+        "dq_total_points",
+        4.924200606254887
+      ],
+      [
+        "r_kurt",
+        4.511771367981058
+      ],
+      [
+        "r_skew",
+        3.5855993457887023
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF18acqtjcz",
+    "label": "SN Ia",
+    "raw_score": -0.5827363066435242,
+    "primary_feature": "g_kurt",
+    "deviation": 7.319058749639901,
+    "top3_features": [
+      [
+        "g_kurt",
+        7.319058749639901
+      ],
+      [
+        "dq_sampling_density",
+        3.4772423976472315
+      ],
+      [
+        "g_skew",
+        3.266924948769499
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF19abdkgwo",
+    "label": "SN II",
+    "raw_score": -0.5780092918284758,
+    "primary_feature": "dq_total_points",
+    "deviation": 5.986977715518533,
+    "top3_features": [
+      [
+        "dq_total_points",
+        5.986977715518533
+      ],
+      [
+        "dq_span",
+        4.150354422827872
+      ],
+      [
+        "dq_log_n",
+        3.723920578195222
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF19aadyppr",
+    "label": "ILRT",
+    "raw_score": -0.569258745477406,
+    "primary_feature": "abs_mag_g",
+    "deviation": 6.880157139364599,
+    "top3_features": [
+      [
+        "abs_mag_g",
+        6.880157139364599
+      ],
+      [
+        "peak_color",
+        4.983788168812421
+      ],
+      [
+        "dq_span",
+        3.498632572380539
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF19aalbrgu",
+    "label": "SLSN-II",
+    "raw_score": -0.5661296024315021,
+    "primary_feature": "dq_span",
+    "deviation": 4.149770050578464,
+    "top3_features": [
+      [
+        "dq_span",
+        4.149770050578464
+      ],
+      [
+        "dq_total_points",
+        4.144830726128214
+      ],
+      [
+        "dq_log_n",
+        3.112162206089759
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF19aafmyow",
+    "label": "SN Ic",
+    "raw_score": -0.5588650688280787,
+    "primary_feature": "dq_span",
+    "deviation": 4.713698000387382,
+    "top3_features": [
+      [
+        "dq_span",
+        4.713698000387382
+      ],
+      [
+        "g_kurt",
+        2.5430118125218355
+      ],
+      [
+        "g_skew",
+        2.5270056732810566
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF19aafljiq",
+    "label": "SLSN-II",
+    "raw_score": -0.5422975033276767,
+    "primary_feature": "r_kurt",
+    "deviation": 3.061704160638296,
+    "top3_features": [
+      [
+        "r_kurt",
+        3.061704160638296
+      ],
+      [
+        "dq_span",
+        2.8813883536890863
+      ],
+      [
+        "r_skew",
+        2.5902793208327934
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF19abimlck",
+    "label": "SN Ia",
+    "raw_score": -0.5415351520415153,
+    "primary_feature": "dq_total_points",
+    "deviation": 4.03855301520185,
+    "top3_features": [
+      [
+        "dq_total_points",
+        4.03855301520185
+      ],
+      [
+        "dq_sampling_density",
+        3.8982238843682087
+      ],
+      [
+        "r_kurt",
+        3.558987990810329
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF19abqgtqo",
+    "label": "SN II",
+    "raw_score": -0.5412580785249165,
+    "primary_feature": "dq_total_points",
+    "deviation": 3.33003494235942,
+    "top3_features": [
+      [
+        "dq_total_points",
+        3.33003494235942
+      ],
+      [
+        "dq_log_n",
+        2.7700419147048168
+      ],
+      [
+        "g_kurt",
+        1.8965503554806553
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF19ablusdf",
+    "label": "SN Ia",
+    "raw_score": -0.5383522813284779,
+    "primary_feature": "g_asymmetry",
+    "deviation": 4.900506364585373,
+    "top3_features": [
+      [
+        "g_asymmetry",
+        4.900506364585373
+      ],
+      [
+        "g_kurt",
+        3.8733584956625453
+      ],
+      [
+        "g_skew",
+        2.526069631604964
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF19aavjzrz",
+    "label": "SN IIP",
+    "raw_score": -0.5379339073316081,
+    "primary_feature": "g_kurt",
+    "deviation": 4.615282431428769,
+    "top3_features": [
+      [
+        "g_kurt",
+        4.615282431428769
+      ],
+      [
+        "peak_color",
+        2.5964153055972687
+      ],
+      [
+        "abs_mag_g",
+        2.553720329504127
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF18aaqkdwu",
+    "label": "SN II",
+    "raw_score": -0.5314381047596872,
+    "primary_feature": "r_asymmetry",
+    "deviation": 17.86148439960378,
+    "top3_features": [
+      [
+        "r_asymmetry",
+        17.86148439960378
+      ],
+      [
+        "r_skew",
+        1.0606544171564187
+      ],
+      [
+        "r_peak",
+        0.8421567567986635
+      ]
+    ]
+  },
+  {
+    "ztf_id": "ZTF19aadgimr",
+    "label": "SN IIn",
+    "raw_score": -0.5239122141898671,
+    "primary_feature": "dq_span",
+    "deviation": 4.5444411222494825,
+    "top3_features": [
+      [
+        "dq_span",
+        4.5444411222494825
+      ],
+      [
+        "r_peak",
+        2.6026000902154456
+      ],
+      [
+        "g_peak",
+        2.4088087917383967
+      ]
+    ]
+  }
+]
