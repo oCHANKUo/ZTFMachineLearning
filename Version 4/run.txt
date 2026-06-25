@@ -1,0 +1,40 @@
+#!/bin/bash
+# Run the complete ZTF anomaly detection pipeline
+
+echo "========================================="
+echo "ZTF Anomaly Detection Pipeline"
+echo "========================================="
+
+echo ""
+echo "Step 1: Download light curves from ZTF BTS"
+python 1_download.py
+
+echo ""
+echo "Step 2: Extract features and preprocess"
+python 2_preprocess.py
+
+echo ""
+echo "Step 3a: Isolation Forest anomaly detection"
+python 3_isolation_forest.py
+
+echo ""
+echo "Step 3b: One-Class SVM anomaly detection"
+python 3_ocsvm.py
+
+echo ""
+echo "Step 3c: Autoencoder anomaly detection"
+python 3_autoencoder.py
+
+echo ""
+echo "Step 4: Merge results and find consensus"
+python 4_merge.py
+
+echo ""
+echo "========================================="
+echo "Pipeline complete!"
+echo "Results saved to:"
+echo "  - top_anomalies.json (Isolation Forest)"
+echo "  - ocsvm_anomalies.json (One-Class SVM)"
+echo "  - ae_anomalies.json (Autoencoder)"
+echo "  - consensus_anomalies.csv (Consensus)"
+echo "========================================="
